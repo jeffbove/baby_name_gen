@@ -1,0 +1,90 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #466399;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+.container{
+    width: calc(768px - 1rem);
+    background-color: rgb(210, 210, 88);
+    
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(51, 50, 50);
+}
+.container h4{
+    color:rgb(48, 47, 47);
+    font-weight: 400;
+    font-size: 30px;
+    width: 100%;
+    margin: 2rem 0;
+}
+.container .form input{
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+    border: none;
+    outline: none;
+    padding: 15px 145px 15px 12px;
+    border-radius: 10px ;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.container .form .girlBtn{
+    position: absolute;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color:  rgb(50, 152, 212);
+    border: none;
+    outline: none;
+    background-color: rgb(197, 56, 147);
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+    letter-spacing: .3px;
+}
+.container .form .boyBtn{
+    position: absolute;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: rgb(197, 56, 147);
+    border: none;
+    outline: none;
+    background-color: rgb(50, 152, 212);
+    top: 3px;
+    right: 140px;
+    cursor: pointer;
+    letter-spacing: .3px;
+}
+.container .nameBox{
+    position: relative;
+    background: linear-gradient(135deg, rgb(50, 152, 212), rgb(197, 56, 147));
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    border: solid 3px rgb(48, 47, 47);
+}
+.container .nameBox span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: .3px;
+}
